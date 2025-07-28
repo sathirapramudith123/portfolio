@@ -1,0 +1,28 @@
+export const skills = [
+  {
+    category: "Frontend",
+    items: [
+      { name: "HTML5", level: 90 },
+      { name: "CSS3", level: 85 },
+      { name: "JavaScript", level: 80 },
+      { name: "React", level: 85 },
+      { name: "TypeScript", level: 70 }
+    ]
+  },
+  {
+    category: "Backend",
+    items: [
+      { name: "Node.js", level: 75 },
+      { name: "Express", level: 70 },
+      { name: "MongoDB", level: 65 }
+    ]
+  },
+  {
+    category: "Tools",
+    items: [
+      { name: "Git", level: 80 },
+      { name: "Webpack", level: 70 },
+      { name: "Figma", level: 60 }
+    ]
+  }
+];
