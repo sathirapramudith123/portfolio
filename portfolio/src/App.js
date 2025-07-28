@@ -4,6 +4,10 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
+import Contact from './components/sections/Contact';
+import About from './components/sections/About';
+import Skills from './components/sections/Skills';
+import Projects from './components/sections/Projects';
 import './App.css';
 
 function App() {
@@ -15,6 +19,10 @@ function App() {
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/skills" element={<Skills />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

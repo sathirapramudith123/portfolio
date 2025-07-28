@@ -28,21 +28,21 @@ const Contact = forwardRef((props, ref) => {
                 <i className="icon">📧</i>
                 <div>
                   <h4>Email</h4>
-                  <p>your.email@example.com</p>
+                  <p>sathirapramudith1@gmail.com</p>
                 </div>
               </div>
               <div className="contact-item">
                 <i className="icon">📱</i>
                 <div>
                   <h4>Phone</h4>
-                  <p>+1 (123) 456-7890</p>
+                  <p>+94 71 4552 133</p>
                 </div>
               </div>
               <div className="contact-item">
                 <i className="icon">📍</i>
                 <div>
                   <h4>Location</h4>
-                  <p>Your City, Country</p>
+                  <p>Colombo, Sri Lanka</p>
                 </div>
               </div>
             </div>

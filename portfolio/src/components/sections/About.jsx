@@ -19,25 +19,28 @@ const About = forwardRef((props, ref) => {
             transition={{ duration: 0.8 }}
           >
             <p>
-              I'm a passionate frontend developer with expertise in React.js and modern JavaScript.
-              I love creating beautiful, responsive, and user-friendly web applications.
+                I am an IT undergraduate with expertise in MERN stack development, mobile app development, 
+                and a strong foundation in UI/UX design using Figma. With experience in Java, HTML, CSS, and web development, 
+                I am passionate about building scalable, user-friendly applications that seamlessly blend
+                 functionality with exceptional design.
             </p>
             <p>
-              With 3+ years of experience, I've worked on various projects ranging from small
-              business websites to complex web applications.
+              Driven by a desire to solve real-world problems through technology,
+               I thrive in collaborative environments where I can contribute to impactful projects. Whether it’s designing intuitive interfaces or developing robust backend solutions,
+               I am committed to creating applications that leave a positive impression.
             </p>
             <div className="about-details">
               <div>
                 <h3>Name:</h3>
-                <p>Your Name</p>
+                <p>Sathira Pramudith</p>
               </div>
               <div>
                 <h3>Email:</h3>
-                <p>your.email@example.com</p>
+                <p>sathirapramudith1@gmail.com</p>
               </div>
               <div>
                 <h3>From:</h3>
-                <p>Your City, Country</p>
+                <p>Colombo, Sri Lanka</p>
               </div>
             </div>
           </motion.div>
@@ -48,7 +51,7 @@ const About = forwardRef((props, ref) => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <img src="/assets/images/profile.jpg" alt="Profile" />
+            <img src="/assets/images/profile.jpeg" alt="Profile" />
           </motion.div>
         </div>
       </div>

@@ -13,8 +13,8 @@ const Hero = () => {
         transition={{ duration: 0.8 }}
         className="hero-content"
       >
-        <h1>Hi, I'm <span>Your Name</span></h1>
-        <h2>Frontend Developer</h2>
+        <h1>Hi, I'm <span>Sathira Pramudith</span></h1>
+        <h2>Frontend Developer Mobile Developer Backend Developer AI/ML Enthusiast</h2>
         <p>I build exceptional digital experiences</p>
         <button className="cta-button">View My Work</button>
       </motion.div>
