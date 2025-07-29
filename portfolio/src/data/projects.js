@@ -21,7 +21,7 @@ export const projects = [
     id: 3,
     title: "Food Delivery  Website",
     description: "A fully functional Food Delivery Website built using HTML, CSS, JavaScript, PHP, and MySQL. This project allows users to browse menus, place online food orders, and manage their accounts. It includes features for customers, restaurant admins, and delivery personnel, offering an end-to-end food ordering experience.",
-    tags: ["Web", "HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+    tags: ["Web", "HTML", "CSS", "JavaScript", "PHP", "MySQL", "Fullstack"],
     image: "/assets/images/projects/Food_Delivery.png",
     github: "https://github.com/sathirapramudith123/Food-Delivery-Web-Site.git",
     
@@ -33,5 +33,13 @@ export const projects = [
     tags: ["Web","Springboot", "Realtime", "React.js", "OpenAPI", "AI"],
     image: "/assets/images/projects/AI-chat-5.png",
     github: "https://github.com/sathirapramudith123/Spring-Boot-AI.git"
-  }
+  },
+  {
+    id: 5,
+    title: "Snake Game",
+    description: "A classic Snake Game where players control a snake to eat food, grow longer, and avoid running into walls or itself. The game features simple controls and increasing difficulty as the snake grows.",
+    tags: ["Design", "C++"],
+    image: "/assets/images/projects/snake game.png",
+    github: "https://github.com/sathirapramudith123/snake-game.git"
+  },
 ];
