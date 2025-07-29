@@ -1,4 +1,3 @@
-// src/components/chatbot/Chatbot.jsx
 import { useState, useRef, useEffect } from 'react';
 import { FaRobot, FaTimes, FaPaperPlane } from 'react-icons/fa';
 import './Chatbot.css';
