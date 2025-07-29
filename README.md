@@ -42,6 +42,8 @@ To customize the portfolio with your own information:
 4. Update the `public/manifest.json` and `public/index.html` files
 
 
+
+project structre 
 ```bash
 
 portfolio/
