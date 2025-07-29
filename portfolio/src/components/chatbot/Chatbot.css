@@ -1,0 +1,130 @@
+/* src/components/chatbot/Chatbot.css */
+.chatbot-container {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.chatbot-toggle {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.chatbot-toggle:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.1);
+}
+
+.chatbot-window {
+  width: 350px;
+  height: 500px;
+  background-color: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chatbot-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.chatbot-messages {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.message {
+  max-width: 80%;
+  padding: 0.8rem 1rem;
+  border-radius: 18px;
+  line-height: 1.4;
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color: var(--primary-color);
+  color: white;
+  border-bottom-right-radius: 4px;
+}
+
+.message.bot {
+  align-self: flex-start;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-bottom-left-radius: 4px;
+}
+
+.chatbot-input {
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.send-btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .chatbot-container {
+    bottom: 1rem;
+    right: 1rem;
+  }
+  
+  .chatbot-window {
+    width: 300px;
+    height: 400px;
+  }
+}

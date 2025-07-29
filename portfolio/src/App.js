@@ -8,6 +8,7 @@ import Contact from './components/sections/Contact';
 import About from './components/sections/About';
 import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
+import Chatbot from './components/chatbot/Chatbot';
 import './App.css';
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
             </Routes>
           </main>
           <Footer />
+          <Chatbot />
         </div>
       </Router>
     </ThemeProvider>
