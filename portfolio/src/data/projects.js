@@ -42,4 +42,12 @@ export const projects = [
     image: "/assets/images/projects/snake game.png",
     github: "https://github.com/sathirapramudith123/snake-game.git"
   },
+  {
+    id: 6,
+    title: "ToDo App",
+    description: "A simple ToDo application built with Kotlin for Android. It allows users to create, manage, and delete tasks, providing a user-friendly interface and smooth user experience.",
+    tags: ["Mobile", "Kotlin", "Android"],
+    image: "/assets/images/projects/To-Do-List-App.jpg",
+    github: "https://github.com/sathirapramudith123/TODO-app-android-studio-.git"
+  }
 ];
