@@ -32,11 +32,11 @@ const About = forwardRef((props, ref) => {
             <div className="about-details">
               <div>
                 <h3>Name:</h3>
-                <p>Sathira Pramudith</p>
+                <p>K.G Sathira Pramudith</p>
               </div>
               <div>
                 <h3>Email:</h3>
-                <p>sathirapramudith1@gmail.com</p>
+                <p>sathirapramudithgamage@gmail.com</p>
               </div>
               <div>
                 <h3>From:</h3>
