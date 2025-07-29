@@ -6,7 +6,7 @@ export const projects = [
     tags: ["Web", "Fullstack", "React"],
     image: "/assets/images/projects/ecommerce.jpg",
     github: "https://github.com/yourusername/ecommerce",
-    live: "https://yourecommerce.com"
+  
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const projects = [
     tags: ["Web", "Mobile", "React"],
     image: "/assets/images/projects/taskapp.jpg",
     github: "https://github.com/yourusername/taskapp",
-    live: "https://yourtaskapp.com"
+    
   },
   {
     id: 3,
@@ -24,6 +24,14 @@ export const projects = [
     tags: ["Web", "Design"],
     image: "/assets/images/projects/portfolio.jpg",
     github: "https://github.com/yourusername/portfolio",
-    live: "https://yourportfolio.com"
+    
+  },
+  {
+    id: 4,
+    title: "SpringBoot AI",
+    description: "A simple Spring Boot application demonstrating integration with Artificial Intelligence features, likely intended for experimenting with or building intelligent applications using React and Spring Boot.",
+    tags: ["Springboot", "Realtime", "React.js", "OpenAPI"],
+    image: "/assets/images/projects/AI-chat-5.png",
+    github: "https://github.com/sathirapramudith123/Spring-Boot-AI.git"
   }
 ];

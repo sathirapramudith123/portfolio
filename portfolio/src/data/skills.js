@@ -24,5 +24,13 @@ export const skills = [
       { name: "Webpack", level: 70 },
       { name: "Figma", level: 60 }
     ]
+  },
+  {
+    category: "Languages",
+    items: [
+      { name: "Python", level: 75 },
+      { name: "Java", level: 70 },
+      { name: "C++", level: 65 }
+    ]
   }
 ];
