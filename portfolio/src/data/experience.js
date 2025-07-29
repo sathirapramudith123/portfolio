@@ -1,4 +1,5 @@
 export const experiences = [
+  /*
   {
     id: 1,
     position: "Frontend Developer",
@@ -22,5 +23,5 @@ export const experiences = [
     date: "2018 - 2019",
     description: "Learned web development fundamentals and contributed to small projects. Assisted in debugging and testing web applications.",
     skills: ["HTML", "CSS", "JavaScript"]
-  }
+  }*/
 ];
