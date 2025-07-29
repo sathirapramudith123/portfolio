@@ -43,7 +43,7 @@ To customize the portfolio with your own information:
 
 
 
-##project structre 
+## project structre 
 ```bash
 
 portfolio/
