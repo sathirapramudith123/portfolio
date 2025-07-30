@@ -142,9 +142,10 @@
   .chatbot-container {
     bottom: 0;
     right: 0;
-    width: 100%;
+    width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-right: 1rem;
   }
 
   .chatbot-window {
