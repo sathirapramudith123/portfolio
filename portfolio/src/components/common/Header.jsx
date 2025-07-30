@@ -10,7 +10,7 @@ const Header = () => {
     <header className={`header ${theme}`}>
       <div className="container">
         <Link to="/" className="logo">
-          MyPortfolio
+          Sathira Pramudith
         </Link>
         <nav className="nav">
           <ul>
