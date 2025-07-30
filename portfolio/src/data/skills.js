@@ -21,7 +21,7 @@ export const skills = [
     category: "Tools",
     items: [
       { name: "Git", level: 80 },
-      { name: "Webpack", level: 70 },
+      { name: "Postman", level: 70 },
       { name: "Figma", level: 60 }
     ]
   },
