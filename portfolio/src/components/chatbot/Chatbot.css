@@ -1,4 +1,4 @@
-/* src/components/chatbot/Chatbot.css */
+
 .chatbot-container {
   position: fixed;
   bottom: 2rem;
@@ -19,6 +19,8 @@
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
+  min-width: 48px;
+  min-height: 48px;
 }
 
 .chatbot-toggle:hover {
@@ -61,6 +63,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  max-height: calc(100vh - 200px);
 }
 
 .message {
@@ -68,6 +71,8 @@
   padding: 0.8rem 1rem;
   border-radius: 18px;
   line-height: 1.4;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .message.user {
@@ -111,20 +116,48 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  min-width: 48px;
+  min-height: 48px;
 }
 
 .send-btn:hover {
   background-color: var(--secondary-color);
 }
 
+/* Tablet adjustments */
 @media (max-width: 768px) {
   .chatbot-container {
     bottom: 1rem;
     right: 1rem;
   }
-  
+
   .chatbot-window {
     width: 300px;
     height: 400px;
+  }
+}
+
+/* Mobile phone adjustments */
+@media (max-width: 480px) {
+  .chatbot-container {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .chatbot-window {
+    width: 95vw;
+    height: 90vh;
+    border-radius: 0;
+  }
+
+  .chatbot-input input {
+    font-size: 0.95rem;
+  }
+
+  .chatbot-messages {
+    padding: 0.8rem;
   }
 }

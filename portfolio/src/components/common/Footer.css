@@ -7,21 +7,56 @@
 .footer .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
+  padding: 0 1rem;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 1.5rem;
 }
 
 .social-links a {
   color: var(--text-color);
   text-decoration: none;
+  font-size: 1.2rem;
   transition: color 0.3s;
 }
 
 .social-links a:hover {
   color: var(--primary-color);
+}
+
+/* Tablet and below */
+@media (max-width: 768px) {
+  .footer {
+    padding: 1.5rem 0;
+  }
+
+  .social-links {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .social-links a {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 480px) {
+  .footer .container {
+    padding: 0 0.5rem;
+  }
+
+  .social-links {
+    gap: 0.8rem;
+  }
+
+  .social-links a {
+    font-size: 1rem;
+  }
 }
