@@ -14,7 +14,8 @@ export const skills = [
     items: [
       { name: "Node.js", level: 75 },
       { name: "Express", level: 70 },
-      { name: "MongoDB", level: 65 }
+      { name: "PHP", level: 65 },
+      { name: "Sql", level: 60 }
     ]
   },
   {
@@ -31,6 +32,14 @@ export const skills = [
       { name: "Python", level: 75 },
       { name: "Java", level: 70 },
       { name: "C++", level: 65 }
+    ]
+  },
+  {
+    category: "Database",
+    items: [
+      { name: "MongoDB", level: 65 },
+      { name: "PostgreSQL", level: 70 },
+      { name: "MySQL", level: 75 }
     ]
   }
 ];
