@@ -49,5 +49,13 @@ export const projects = [
     tags: ["Mobile", "Kotlin", "Android"],
     image: "/assets/images/projects/To-Do-List-App.jpg",
     github: "https://github.com/sathirapramudith123/TODO-app-android-studio-.git"
-  }
+  },
+  {
+    id: 7,
+    title: "Object Detection",
+    description: "A simple yet powerful real-time object detection system using YOLOv3 and OpenCV. This project demonstrates the integration of deep learning with computer vision to detect and classify objects from webcam or video input.",
+    tags: ["Web",  "Python", "OpenCV", "AI"],
+    image: "/assets/images/projects/original.png",
+    github: "https://github.com/sathirapramudith123/object-detect-system.git"
+  },
 ];
