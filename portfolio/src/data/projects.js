@@ -66,4 +66,13 @@ export const projects = [
     image: "/assets/images/projects/chess game.jpg",
     github: "https://github.com/sathirapramudith123/Chess_Game-.git"
   },
+  
+  {
+    id: 9,
+    title: "Google Map",
+    description: "This project demonstrates how to integrate Google Maps with a React JS application. It showcases key functionalities like adding markers, customizing maps, and interacting with map events. This project is ideal for developers looking to incorporate Google Maps into their React-based projects.",
+    tags: ["Web","Fullstack",  "JavaScript", "React", ],
+    image: "/assets/images/projects/google map.jpg",
+    github: "https://github.com/sathirapramudith123/Google-Map-React-Js.git"
+  },
 ];
