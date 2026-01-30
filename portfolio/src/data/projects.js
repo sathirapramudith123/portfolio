@@ -58,4 +58,12 @@ export const projects = [
     image: "/assets/images/projects/original.png",
     github: "https://github.com/sathirapramudith123/object-detect-system.git"
   },
+  {
+    id: 8,
+    title: "Chess Game",
+    description: "A Java-based Chess Game built as part of a programming project to simulate the classic game of chess. This repository contains all the source code needed to run a simple chess game following standard chess rules.",
+    tags: ["Web","Fullstack",  "Java", "OOP", ],
+    image: "/assets/images/projects/chess game.jpg",
+    github: "https://github.com/sathirapramudith123/Chess_Game-.git"
+  },
 ];
