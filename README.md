@@ -46,66 +46,93 @@ To customize the portfolio with your own information:
 ## Project structre 
 ```bash
 
-portfolio/
-├── public/
-│   ├── index.html
-│   ├── favicon.ico
-│   ├── manifest.json
-│   └── assets/
-│       ├── images/
-│       │   ├── profile.jpg
-│       │   ├── projects/
-│       │   └── icons/
-│       └── resume.pdf
-├── src/
-│   ├── components/
-│   │   ├── common/               # Header, Footer, Navbar, etc.
-│   │   │   ├── Header.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── Button.jsx
-│   │   │   └── ThemeToggle.jsx
-│   │   ├── sections/             # Each page section
-│   │   │   ├── Hero.jsx
-│   │   │   ├── About.jsx
-│   │   │   ├── Skills.jsx
-│   │   │   ├── Projects.jsx
-│   │   │   ├── Experience.jsx
-│   │   │   ├── Education.jsx
-│   │   │   └── Contact.jsx
-│   │   └── ui/                   # Cards and small UI elements
-│   │       ├── ProjectCard.jsx
-│   │       ├── SkillCard.jsx
-│   │       ├── Timeline.jsx
-│   │       └── LoadingSpinner.jsx
-│   ├── pages/                    # Routing pages
-│   │   ├── Home.jsx
-│   │   └── NotFound.jsx
-│   ├── hooks/                    # Custom hooks
-│   │   ├── useTheme.js
-│   │   ├── useScrollAnimation.js
-│   │   └── useContactForm.js
-│   ├── context/                  # React Context API
-│   │   └── ThemeContext.js
-│   ├── data/                     # Static data used in UI
-│   │   ├── projects.js
-│   │   ├── skills.js
-│   │   ├── experience.js
-│   │   └── socialLinks.js
-│   ├── utils/                    # Helper functions & animations
-│   │   ├── constants.js
-│   │   ├── helpers.js
-│   │   └── animations.js
-│   ├── styles/                   # Global and reusable styles
-│   │   ├── globals.css
-│   │   ├── variables.css
-│   │   └── animations.css
-│   ├── App.jsx
-│   ├── App.css
-│   └── index.js
-├── .env
-├── .gitignore
-├── package.json
-├── package-lock.json
-└── README.md
+portfolio
+    ├── public
+    │   ├── assets
+    │   │   └── images
+    │   │       ├── projects
+    │   │       │   ├── AI-chat-5.png
+    │   │       │   ├── chess game.jpg
+    │   │       │   ├── Food_Delivery.png
+    │   │       │   ├── google map.jpg
+    │   │       │   ├── online web store.jpg
+    │   │       │   ├── original.png
+    │   │       │   ├── snake game.png
+    │   │       │   ├── tic tac.png
+    │   │       │   └── To-Do-List-App.jpg
+    │   │       └── profile.jpeg
+    │   ├── favicon.ico
+    │   ├── index.html
+    │   ├── logo192.png
+    │   ├── logo512.png
+    │   ├── manifest.json
+    │   ├── netlify.toml
+    │   ├── pf-icon-.png
+    │   ├── pf-icon.png
+    │   └── robots.txt
+    ├── src
+    │   ├── components
+    │   │   ├── chatbot
+    │   │   │   ├── Chatbot.css
+    │   │   │   └── Chatbot.jsx
+    │   │   ├── common
+    │   │   │   ├── Footer.css
+    │   │   │   ├── Footer.jsx
+    │   │   │   ├── Header.css
+    │   │   │   ├── Header.jsx
+    │   │   │   ├── ThemeToggle.css
+    │   │   │   └── ThemeToggle.jsx
+    │   │   ├── sections
+    │   │   │   ├── About.css
+    │   │   │   ├── About.jsx
+    │   │   │   ├── Contact.css
+    │   │   │   ├── Contact.jsx
+    │   │   │   ├── Experience.css
+    │   │   │   ├── Experience.jsx
+    │   │   │   ├── Hero.css
+    │   │   │   ├── Hero.jsx
+    │   │   │   ├── Projects.css
+    │   │   │   ├── Projects.jsx
+    │   │   │   ├── Skills.css
+    │   │   │   └── Skills.jsx
+    │   │   └── ui
+    │   │       ├── ProjectCard.css
+    │   │       └── ProjectCard.jsx
+    │   ├── context
+    │   │   └── ThemeContext.js
+    │   ├── data
+    │   │   ├── experience.js
+    │   │   ├── projects.js
+    │   │   ├── skills.js
+    │   │   └── socialLinks.js
+    │   ├── hooks
+    │   │   ├── useContactForm.js
+    │   │   ├── useScrollAnimation.js
+    │   │   └── useTheme.js
+    │   ├── pages
+    │   │   ├── Home.css
+    │   │   ├── Home.jsx
+    │   │   ├── NotFound.css
+    │   │   └── NotFound.jsx
+    │   ├── styles
+    │   │   ├── animations.css
+    │   │   ├── globals.css
+    │   │   └── variables.css
+    │   ├── utils
+    │   │   ├── animations.js
+    │   │   ├── constants.js
+    │   │   └── helpers.js
+    │   ├── App.css
+    │   ├── App.js
+    │   ├── App.test.js
+    │   ├── index.css
+    │   ├── index.js
+    │   ├── logo.svg
+    │   ├── reportWebVitals.js
+    │   └── setupTests.js
+    ├── .env
+    ├── .gitignore
+    ├── package-lock.json
+    ├── package.json
+    └── README.md
 ```
