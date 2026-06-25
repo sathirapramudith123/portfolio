@@ -1,11 +1,32 @@
 .about {
-  padding: 5rem 0;
+  padding: 6rem 0;
   background-color: var(--bg-color);
+}
+
+.about .section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+/* Accent underline under the title */
+.about .section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 0.75rem auto 0;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    color-mix(in srgb, var(--primary-color) 40%, transparent)
+  );
 }
 
 .about-content {
   display: flex;
-  gap: 3rem;
+  gap: 3.5rem;
   align-items: center;
 }
 
@@ -16,38 +37,95 @@
 .about-text p {
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
-  line-height: 1.8;
+  line-height: 1.85;
+  color: var(--text-color);
+  opacity: 0.9;
 }
 
 .about-details {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+/* Each detail becomes a soft card */
+.about-details > div {
+  padding: 1rem 1.25rem;
+  background-color: color-mix(in srgb, var(--primary-color) 6%, transparent);
+  border: 1px solid color-mix(in srgb, var(--primary-color) 14%, transparent);
+  border-radius: 12px;
+  transition: transform 0.3s ease, border-color 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.about-details > div:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--primary-color) 35%, transparent);
+  background-color: color-mix(in srgb, var(--primary-color) 10%, transparent);
 }
 
 .about-details h3 {
   color: var(--primary-color);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.about-details p {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: var(--text-color);
+  word-break: break-word;
 }
 
 .about-image {
   flex: 1;
-  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Offset frame behind the photo */
+.about-image::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  border: 3px solid color-mix(in srgb, var(--primary-color) 45%, transparent);
+  border-radius: 16px;
+  transform: translate(18px, 18px);
+  z-index: 0;
 }
 
 .about-image img {
+  position: relative;
+  z-index: 1;
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 16px;
   box-shadow: var(--shadow);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-image:hover img {
+  transform: translate(-6px, -6px);
+  box-shadow: 0 20px 45px -15px color-mix(in srgb, var(--primary-color) 40%, transparent);
 }
 
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;
+    gap: 2.5rem;
   }
-  
+
   .about-image {
     order: -1;
+  }
+
+  .about-image::before {
+    transform: translate(12px, 12px);
   }
 }
