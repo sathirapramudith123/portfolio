@@ -1,13 +1,14 @@
 export const experiences = [
-  /*
+  
   {
     id: 1,
-    position: "Frontend Developer",
-    company: "Tech Solutions Inc.",
-    date: "2021 - Present",
-    description: "Developed and maintained responsive web applications using React.js. Collaborated with designers and backend developers to implement new features.",
-    skills: ["React", "Redux", "TypeScript", "CSS"]
+    position: "Backend Developer Intern",
+    company: "Gamage Recruiters",
+    date: "2026 Feb 02 - Present",
+    description: "Contributed to the development of backend services using Spring Boot and Java. Designed and implemented REST APIs, worked with relational databases, tested application functionality, resolved issues, and collaborated with the development team to deliver scalable and maintainable solutions.",
+    skills: ["Spring Boot", "Java"]
   },
+  /*
   {
     id: 2,
     position: "Junior Web Developer",
