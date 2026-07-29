@@ -36,7 +36,7 @@ const About = forwardRef((props, ref) => {
               </div>
               <div>
                 <h3>Email:</h3>
-                <p>sathirapramudithgamage@gmail.com</p>
+                <p>sathirapramudith1@gmail.com</p>
               </div>
               <div>
                 <h3>From:</h3>
@@ -51,7 +51,7 @@ const About = forwardRef((props, ref) => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <img src="/assets/images/profile.jpeg" alt="Profile" />
+            <img src="/assets/images/profile.jpg" alt="Profile" />
           </motion.div>
         </div>
       </div>

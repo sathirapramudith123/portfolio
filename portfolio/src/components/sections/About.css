@@ -89,17 +89,7 @@
   align-items: center;
 }
 
-/* Offset frame behind the photo */
-.about-image::before {
-  content: "";
-  position: absolute;
-  width: 80%;
-  height: 90%;
-  border: 3px solid color-mix(in srgb, var(--primary-color) 45%, transparent);
-  border-radius: 16px;
-  transform: translate(18px, 18px);
-  z-index: 0;
-}
+
 
 .about-image img {
   position: relative;
