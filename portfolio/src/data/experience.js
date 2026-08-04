@@ -4,7 +4,8 @@ export const experiences = [
     id: 1,
     position: "Backend Developer Intern",
     company: "Gamage Recruiters",
-    date: "2026 Feb 02 - Present",
+    date: "2026 Feb 02 - 2026 Aug 03",
+    duration: "6 months",
     description: "Contributed to the development of backend services using Spring Boot and Java. Designed and implemented REST APIs, worked with relational databases, tested application functionality, resolved issues, and collaborated with the development team to deliver scalable and maintainable solutions.",
     skills: ["Spring Boot", "Java"]
   },
