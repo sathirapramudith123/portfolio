@@ -21,6 +21,7 @@ const Experience = () => {
                 <div className="timeline-date">{exp.date}</div>
                 <h3>{exp.position}</h3>
                 <h4>{exp.company}</h4>
+                <h4 className="timeline-duration">{exp.duration}</h4>
                 <p>{exp.description}</p>
                 <div className="timeline-skills">
                   {exp.skills.map(skill => (
